@@ -56,8 +56,20 @@ docs/_build/
 # PyBuilder
 target/
 
+# vim
 *.sw[op]
 
+# Ipython
+.ipynb_checkpoints
+
+# Dolphin (KDE) temp
+.directory
+
+# Misc temp
+.~*#
+
+
+# Bioinformatics formats
 *.fasta
 *.bam
 *.bed
